@@ -1,0 +1,6 @@
+1. area of circle for given radius
+2. area of rectangle for given length and width 
+3. area of square for given side 
+4. area of right angle triangle 
+5. area of heron's triangle 
+
