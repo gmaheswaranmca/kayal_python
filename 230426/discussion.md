@@ -23,6 +23,10 @@ if cond:
 
 Lab exercises:
 1. for given day number, categorize as day name
+```
    1 -> Sunday, ..., 7-Saturday
+```
 2. for given month number, categorize as month name 
+```
    1 -> January, ..., 12-December
+```
