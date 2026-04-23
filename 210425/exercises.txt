@@ -4,3 +4,22 @@
 4. area of right angle triangle 
 5. area of heron's triangle 
 
+--- 
+
+formula
+1.  radius 
+    pi = 22 / 7
+    area = pi * radius * radius 
+2. length, width 
+   area = length * width 
+3. side 
+   area = side * side 
+4. breath, height
+   area = (1 / 2) * breath * height
+5. a, b, c are three sides triangle 
+   calculate semi-perimeter named s 
+   import math
+   s = (a + b + c) / 2
+   area = math.sqrt(s * (s - a) * (s - b) * (s - c))
+   # area = (s * (s - a) * (s - b) * (s - c)) ** (1/2)
+
