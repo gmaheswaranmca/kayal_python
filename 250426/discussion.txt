@@ -1,0 +1,44 @@
+for loop (range):
+-----------------
+    syntax:
+    
+    for I in range(N): 
+        loopStatements 
+
+    range(5) # I -> 0, 1, 2, 3, ..,4, [5 exclude = stop]
+    range(1,5) # I -> 1, 2, 3, 4, [5 exclude = stop]
+    range(5,100,5) # I -> 5, 10, 15, 20, ..., 95, [100 exclue = stop]
+
+    syntax for range:
+        range(end)
+        range(start, end)
+        range(start, end, step)
+
+    range(100, 4, -5) # 100, 95, 90, ..., 15, 10, 5, [0 exclue = stop equals 4]
+
+factorial(5)
+    = 5 * 4!
+    = 5 * 4 * 3!
+    = 5 * 4 * 3 * 2!
+    = 5 * 4 * 3 * 2 * 1!
+    = 5 * 4 * 3 * 2 * 1
+
+Print series for N terms 
+1. series: fibonacci series  
+    0,1,1,2,3,5,8,13, .... for 8 terms 
+2. series: natural numbers
+    1,2,3,4,5,6, ... for 6 terms
+     1 1 1 1 1  <--- diff static 1
+3. series: 
+    1,4,7,10,13,16,19,22,25,28, .... for 10 terms 
+     3 3 3 <--- difference static 3
+4. series:
+    100,95, 85, 70, 50, 25, ... for 6 terms   
+       -5 -10 -15 -20 -25 <--- diff start at -5 add 5 for next diff continue 
+lab:
+5. series:
+    10, 13, 17, 22, 28, 35, ... for 6 terms  
+       3   4  5   6   7         <--- diff start a 3 then 4 then 5 ie add start with 3 add with 1 for next diff
+6. series: square of each natural number series
+    1,  4,  9,  16,  25,... for 5 terms 
+    1^2,2^2,3^2,4^2,5^2        
