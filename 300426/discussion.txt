@@ -19,3 +19,52 @@ for loop I -> 1..5  # 1     2       3       4           5
 ***\n
 ****\n
 *****\n
+
+k
+kk
+kkk
+kkkk
+kkkkk N=5
+
+1
+12
+123
+1234
+12345
+
+1
+22
+333
+4444
+55555
+
+
+Right-Aligned Triangle
+```
+    *
+   **
+  ***
+ ****
+*****
+```
+
+N=5
+    *   row 1: four spaces, one star printed     5-1 ie N-1 spaces, 1 stars    
+   **   row 2: three spaces, two stars printed          N-2 spaces, 2 stars 
+  ***   row 3: two spaces, three stars printed          N-3 spaces, 3 stars 
+ ****   row 4: one space, four stars printed            N-4       , 4 
+*****   row 5: five stars printed                       N-5       , 5 stars
+                        formula                         N-I spaces, I stars 
+
+for I in range(1,N+1):
+    for J in range(1,N-I+1):
+        print(' ', end='')
+    #
+    for J in range(1,I+1):
+        print('*', end='')
+    #
+    print()
+
+otherwise 
+for I in range(1,N+1):
+    print(' ' * N-I, '*' * I, space='')
