@@ -61,6 +61,59 @@
 * Print number pyramid.
 * Print hollow square pattern.
 
+star triangle (Left-Aligned Triangle)
+```
+*
+**
+***
+****
+*****
+```
+
+Right-Aligned Triangle
+```
+    *
+   **
+  ***
+ ****
+*****
+```
+
+Pyramid Triangle (Centered)
+```
+    *
+   ***
+  *****
+ *******
+*********
+```
+
+Inverted Triangle (Left-Aligned Triangle)
+```
+*****
+****
+***
+**
+*
+```
+
+Inverted Triangle (Right-Aligned Triangle)
+```
+*****
+ ****
+  ***
+   **
+    *
+```
+
+Inverted Triangle - Pyramid Centered
+```
+*********
+ *******
+  *****
+   ***
+    *
+```
 ---
 
 ### 7. Number Theory Problems

@@ -1,0 +1,21 @@
+star triangle (Left-Aligned Triangle)
+*       -> at line 1, stars=1
+**      -> at line 2, stars=2
+***     -> at line 3, stars=3
+****    -> at line 4, stars=4
+*****   -> at line 5, stars=5
+
+I -> 1..5(N)
+  -> 1 2 3 4 5 (for loop)
+
+with the help of nested for loop, we can print star triangle pattern.
+for loop I -> 1..5  # 1     2       3       4           5
+    for J -> 1..I   # 1     1 2     1 2 3   1 2 3 4     1 2 3 4 5
+        print * without newline 
+    print newline
+
+*\n
+**\n
+***\n
+****\n
+*****\n
